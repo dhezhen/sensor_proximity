@@ -1,4 +1,4 @@
-package com.pab.sensor_cahaya;
+package com.pab.sensor_proximity;
 
 
 import android.content.Context;
@@ -7,16 +7,17 @@ import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
+import android.hardware.camera2.CameraManager;
 import android.media.MediaPlayer;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.Handler;
 import android.os.VibrationEffect;
 import android.os.Vibrator;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+
 import androidx.appcompat.app.AppCompatActivity;
-import android.os.Handler;
-import android.hardware.camera2.CameraManager;
 
 public class MainActivity extends AppCompatActivity implements SensorEventListener {
 
