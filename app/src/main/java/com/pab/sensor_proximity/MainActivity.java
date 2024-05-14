@@ -81,7 +81,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
             if (distance < proximitySensor.getMaximumRange()) {
                 // Object is close
                 layout.setBackgroundColor(Color.RED);
-                warningTextView.setText("Object is too close!");
+                warningTextView.setText("Object terlalu dekat!");
 
                 if (vibrator != null && vibrator.hasVibrator()) {
                     if (mediaPlayer != null) {
@@ -98,7 +98,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
             } else {
                 // Object is far
                 layout.setBackgroundColor(Color.WHITE);
-                warningTextView.setText("Proximity Sensor Demo");
+                warningTextView.setText("Proximity Sensor Demo \n Dekatkan objek");
                 stopFlash(); // Stop flashing the flashlight
             }
         }
