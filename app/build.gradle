@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'com.pab.sensor_cahaya'
+    namespace 'com.pab.sensor_proximity'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.pab.sensor_cahaya"
+        applicationId "com.pab.sensor_proximity"
         minSdk 28
         targetSdk 34
         versionCode 1
